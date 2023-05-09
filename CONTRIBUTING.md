@@ -191,6 +191,32 @@ To build and debug the extension **install the [Node.js](https://nodejs.org/)** 
 Install development dependencies by running `npm install` in the project root folder.
 Then execute `npm run debug`.
 
+#### Forking the repository
+
+1. Login to your GitHub account
+2. Go to the [Dark Reader](https://github.com/darkreader/darkreader) repository
+3. Use the **Fork** button at the top right of the project page
+4. Click **Create Fork** with the default settings
+
+#### Cloning the repository
+
+1. Go to your fork of the [darkreader/darkreader](https://github.com/darkreader/darkreader) repository
+2. Click on the green **Code** button on the top right
+3. Copy the HTTPS link
+4. Open your local machine's git bash terminal in your preferred directory location for the clone repo
+5. Use the `git clone` command with the copied https url
+    `$ git clone git clone https://github.com/YOUR-USERNAME/darkreader.git`
+    where YOUR-USERNAME is your GitHub username instead
+
+#### Set up fork to sync with the upstream repository
+
+1. Go to the original repo of the [darkreader/darkreader](https://github.com/darkreader/darkreader) repository
+2. Click on the green **Code** button on the top right
+3. Copy the HTTPS link
+4. Use the git bash terminal in the directory of the local cloned repository
+5. Using the copied link, create an upstream
+    `$ git remote add upstream https://github.com/darkreader/darkreader.git`
+
 #### Chrome and Edge
 
 - Open the `chrome://extensions` page.
